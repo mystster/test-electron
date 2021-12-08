@@ -5,5 +5,5 @@ interface Window {
      *
      * @see https://www.electronjs.org/docs/api/context-bridge
      */
-    readonly 'electron': { readonly versions: NodeJS.ProcessVersions; };
+    readonly electron: { readonly versions: NodeJS.ProcessVersions; };
 }
