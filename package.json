@@ -77,7 +77,7 @@
               "files": [
                 "package.json"
               ],
-              "from": "  \"version\": \".*\"",
+              "from": "  \"version\": '.*'",
               "to": "  \"version\": \"${nextRelease.version}\"",
               "results": [
                 {
