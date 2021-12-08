@@ -1,6 +1,12 @@
 {
   "name": "vite-electron-builder",
   "private": true,
+  "version": "0.0.0",
+  "description": "test-electron",
+  "author": {
+    "email": "mystster@gmail.com",
+    "name": "mystster"
+  },
   "engines": {
     "node": ">=v16.13",
     "npm": ">=8.1"
@@ -9,7 +15,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "precompile": "cross-env MODE=production npm run build",
-    "compile": "electron-builder build --config electron-builder.config.js --dir --config.asar=false",
+    "compile": "electron-builder build --config electron-builder.config.js --config.asar=false",
     "pretest": "npm run build",
     "test": "node tests/app.spec.js",
     "watch": "node scripts/watch.js",
@@ -30,19 +36,120 @@
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --cache --fix"
   },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      [
+        "@google/semantic-release-replace-plugin",
+        {
+          "replacements": [
+            {
+              "files": [
+                "electron-builder.config.js"
+              ],
+              "from": "process.env.VITE_APP_VERSION = \".*\"",
+              "to": "process.env.VITE_APP_VERSION =  \"${nextRelease.version}\"",
+              "results": [
+                {
+                  "file": "electron-builder.config.js",
+                  "hasChanged": true,
+                  "numMatches": 1,
+                  "numReplacements": 1
+                }
+              ],
+              "countMatches": true
+            },
+            {
+              "files": [
+                "package.json"
+              ],
+              "from": "  \"version\": \".*\"",
+              "to": "  \"version\": \"${nextRelease.version}\"",
+              "results": [
+                {
+                  "file": "package.json",
+                  "hasChanged": true,
+                  "numMatches": 1,
+                  "numReplacements": 1
+                }
+              ],
+              "countMatches": true
+            }
+          ]
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "package-lock.json",
+            "CHANGELOG.md"
+          ],
+          "message": "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "npm run compile"
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/*.exe",
+              "label": "installer"
+            },
+            {
+              "path": "dist/*.exe.blockmap",
+              "label": "for delta update"
+            },
+            {
+              "path": "dist/*.zip",
+              "label": "portable"
+            }
+          ]
+        }
+      ]
+    ]
+  },
   "devDependencies": {
+    "@google/semantic-release-replace-plugin": "^1.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@types/electron-devtools-installer": "2.2.0",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@vitejs/plugin-vue": "1.10.1",
     "cross-env": "7.0.3",
+    "dts-for-context-bridge": "0.2.0",
     "electron": "16.0.2",
     "electron-builder": "22.14.5",
-    "dts-for-context-bridge": "0.2.0",
     "electron-devtools-installer": "3.2.0",
     "eslint": "8.3.0",
     "eslint-plugin-vue": "8.1.1",
     "lint-staged": "12.1.2",
     "playwright": "1.16.3",
+    "semantic-release": "^18.0.1",
     "simple-git-hooks": "2.7.0",
     "typescript": "4.5.2",
     "vite": "2.6.14",
