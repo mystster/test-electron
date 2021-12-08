@@ -6,6 +6,11 @@ name: Release
       - next
       - beta
       - "*.x"
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   release:
     name: release
