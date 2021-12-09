@@ -60,22 +60,6 @@
           "replacements": [
             {
               "files": [
-                "electron-builder.config.js"
-              ],
-              "from": "  process.env.VITE_APP_VERSION = .*",
-              "to": "  process.env.VITE_APP_VERSION =  \"${nextRelease.version}\";",
-              "results": [
-                {
-                  "file": "electron-builder.config.js",
-                  "hasChanged": true,
-                  "numMatches": 1,
-                  "numReplacements": 1
-                }
-              ],
-              "countMatches": true
-            },
-            {
-              "files": [
                 "package.json"
               ],
               "from": "  \"version\": .*",

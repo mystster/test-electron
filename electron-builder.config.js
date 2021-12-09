@@ -1,5 +1,5 @@
 if (process.env.VITE_APP_VERSION === undefined) {
-  process.env.VITE_APP_VERSION = '0.0.0';
+  process.env.VITE_APP_VERSION = '1.0.1';
 }
 
 /**
