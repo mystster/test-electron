@@ -1,3 +1,14 @@
+## [1.0.1](https://github.com/mystster/test-electron/compare/v1.0.0...v1.0.1) (2021-12-09)
+
+
+### Bug Fixes
+
+* check ([aad8dc6](https://github.com/mystster/test-electron/commit/aad8dc6ba0dc24884d5c28518b2d83b0faedc18f))
+* check @google/semantic-release-replace-plugin ([b8bab53](https://github.com/mystster/test-electron/commit/b8bab53b279fb1f954fcd4e6daf44b578cff5b00))
+* package.json version update ([8be0300](https://github.com/mystster/test-electron/commit/8be0300780e7fa05d791c193d7772d00a363a860))
+* semantic-release-replace-plugin not work ([cb482ed](https://github.com/mystster/test-electron/commit/cb482ed506c89d806a16a1499592e0d2032f96ed))
+* version replacement ([a647191](https://github.com/mystster/test-electron/commit/a647191950be4a7e216eb6bd829fdeb2034a3f5b))
+
 # 1.0.0 (2021-12-09)
 
 
