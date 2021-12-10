@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/mystster/test-electron/compare/v1.0.2...v1.0.3) (2021-12-10)
+
+
+### Bug Fixes
+
+* replace error ([df8892b](https://github.com/mystster/test-electron/commit/df8892bb5a251b814ab0733516d1ee1fbbd3c116))
+
 ## [1.0.2](https://github.com/mystster/test-electron/compare/v1.0.1...v1.0.2) (2021-12-10)
 
 
