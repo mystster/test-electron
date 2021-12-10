@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/mystster/test-electron/compare/v1.0.1...v1.0.2) (2021-12-10)
+
+
+### Bug Fixes
+
+* auto update ([9d9f5b6](https://github.com/mystster/test-electron/commit/9d9f5b6171824b7fe2c160603ef7de3e125b2b0a))
+* release workflow error ([3f465ad](https://github.com/mystster/test-electron/commit/3f465ad1fe0b0412885bf1858ddb81a0c8172a89))
+* renovate bump version ([660fe40](https://github.com/mystster/test-electron/commit/660fe404cb2838cabc8084bfdc75180271860b18))
+* replace error ([df8892b](https://github.com/mystster/test-electron/commit/df8892bb5a251b814ab0733516d1ee1fbbd3c116))
+
 ## [1.0.4](https://github.com/mystster/test-electron/compare/v1.0.3...v1.0.4) (2021-12-10)
 
 
