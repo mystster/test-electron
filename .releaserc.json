@@ -62,27 +62,9 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "npm run compile"
+        "publishCmd": "npm run publish-semantic-release"
       }
     ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": [
-          {
-            "path": "dist/*.exe",
-            "label": "installer"
-          },
-          {
-            "path": "dist/*.exe.blockmap",
-            "label": "for delta update"
-          },
-          {
-            "path": "dist/*.zip",
-            "label": "portable"
-          }
-        ]
-      }
-    ]
+    "@semantic-release/github"
   ]
 }
