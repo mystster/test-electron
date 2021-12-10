@@ -11,7 +11,7 @@
   "baseBranches": [
     "main"
   ],
-  "bumpVersion": "patch",
+  "bumpVersion": null,
   "patch": {
     "automerge": true
   },
