@@ -64,7 +64,6 @@
       {
         "publishCmd": "npm run precompile&&npm run publish-semantic-release"
       }
-    ],
-    "@semantic-release/github"
+    ]
   ]
 }
