@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mystster/test-electron/compare/v1.0.3...v1.0.4) (2021-12-10)
+
+
+### Bug Fixes
+
+* release workflow error ([3f465ad](https://github.com/mystster/test-electron/commit/3f465ad1fe0b0412885bf1858ddb81a0c8172a89))
+
 ## [1.0.3](https://github.com/mystster/test-electron/compare/v1.0.2...v1.0.3) (2021-12-10)
 
 
