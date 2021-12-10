@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/mystster/test-electron/compare/v1.0.2...v1.0.3) (2021-12-10)
+
+
+### Bug Fixes
+
+* release page generation ([bd169e8](https://github.com/mystster/test-electron/commit/bd169e8f94320c0ff887863ef42c6c19b62bfcdf))
+
 ## [1.0.2](https://github.com/mystster/test-electron/compare/v1.0.1...v1.0.2) (2021-12-10)
 
 
