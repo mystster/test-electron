@@ -62,7 +62,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "npm run precompile&&npm run publish-semantic-release"
+        "publishCmd": "git pull&&npm run precompile&&npm run publish-semantic-release"
       }
     ]
   ]
