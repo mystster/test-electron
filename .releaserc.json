@@ -62,8 +62,10 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "git push&&git push --tags&&npm run precompile&&npm run release"
+        "prepareCmd": "npm run precompile",
+        "publishCmd": "npm run release"
       }
-    ]
+    ],
+    "semantic-release-github-electron-builder"
   ]
 }
