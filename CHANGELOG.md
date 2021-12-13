@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/mystster/test-electron/compare/v1.0.6...v1.0.7) (2021-12-13)
+
+
+### Bug Fixes
+
+* latest.yml not upload ([8718f52](https://github.com/mystster/test-electron/commit/8718f52ca660241c70157fe4997552bb17debda0))
+
 ## [1.0.6](https://github.com/mystster/test-electron/compare/v1.0.5...v1.0.6) (2021-12-12)
 
 
