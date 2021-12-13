@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/mystster/test-electron/compare/v1.0.8...v1.0.9) (2021-12-13)
+
+
+### Bug Fixes
+
+* lock file ([dee976a](https://github.com/mystster/test-electron/commit/dee976a084665dcbb7856ffc193d789393c68dda))
+
 ## [1.0.8](https://github.com/mystster/test-electron/compare/v1.0.7...v1.0.8) (2021-12-13)
 
 
