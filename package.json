@@ -1,7 +1,7 @@
 {
   "name": "vite-electron-builder",
   "private": true,
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "test-electron",
   "author": {
     "email": "mystster@gmail.com",
@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "electron-updater": "4.6.5",
-    "vue": "3.2.24",
+    "vue": "3.2.26",
     "vue-router": "4.0.12"
   }
 }
