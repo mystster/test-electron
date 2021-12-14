@@ -1,3 +1,11 @@
+## [1.0.13](https://github.com/mystster/test-electron/compare/v1.0.12...v1.0.13) (2021-12-14)
+
+
+### Reverts
+
+* Revert "fix: token permission" ([d004691](https://github.com/mystster/test-electron/commit/d004691e8bc55b2fe30130f66c8b29f5e8f5d49d))
+* Revert "chore: release flow disable cache" ([bf99d83](https://github.com/mystster/test-electron/commit/bf99d833cee55468cc67ce08311fac3095a29b86))
+
 ## [1.0.12](https://github.com/mystster/test-electron/compare/v1.0.11...v1.0.12) (2021-12-14)
 
 
