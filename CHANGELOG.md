@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/mystster/test-electron/compare/v1.0.11...v1.0.12) (2021-12-14)
+
+
+### Bug Fixes
+
+* plugin! ([1ddafb8](https://github.com/mystster/test-electron/commit/1ddafb80c40cb4183b81b464f39fb6cf506e25e1))
+* plugin! ([c843a8a](https://github.com/mystster/test-electron/commit/c843a8af84b3b055261609784f13207641e4e8c6))
+
 ## [1.0.11](https://github.com/mystster/test-electron/compare/v1.0.10...v1.0.11) (2021-12-14)
 
 
