@@ -1,3 +1,12 @@
+## [1.0.10](https://github.com/mystster/test-electron/compare/v1.0.9...v1.0.10) (2021-12-14)
+
+
+### Bug Fixes
+
+* release module ([0720a9d](https://github.com/mystster/test-electron/commit/0720a9d4cd9c1b030f5c042d9e0baa44631e2f9a))
+* semantic-release-plugin ([ba053a8](https://github.com/mystster/test-electron/commit/ba053a85a3f6bf3b8d4ab1f6357659d124bba4e1))
+* token permission ([5a4f5ae](https://github.com/mystster/test-electron/commit/5a4f5aefb2a514e10f83ebcfb48ebc9396763b5f))
+
 ## [1.0.9](https://github.com/mystster/test-electron/compare/v1.0.8...v1.0.9) (2021-12-13)
 
 
