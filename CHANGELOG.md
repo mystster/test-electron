@@ -1,3 +1,12 @@
+## [1.0.14](https://github.com/mystster/test-electron/compare/v1.0.13...v1.0.14) (2021-12-15)
+
+
+### Bug Fixes
+
+* plugin error ([57798b8](https://github.com/mystster/test-electron/commit/57798b886ff908e23a200c1f52fe8178bf0204f1))
+* plugin error ([8964cb8](https://github.com/mystster/test-electron/commit/8964cb8afe8ba904cc8f274d9580fc3f3b4c05e3))
+* remove unused plugin settings ([18e16e9](https://github.com/mystster/test-electron/commit/18e16e92f611d0f2adc05f371589fe77f83ef754))
+
 ## [1.0.13](https://github.com/mystster/test-electron/compare/v1.0.12...v1.0.13) (2021-12-14)
 
 
