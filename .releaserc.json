@@ -20,20 +20,6 @@
       {
         "replacements": [
           {
-            "files": ["electron-builder.config.js"],
-            "from": "  process.env.VITE_APP_VERSION = .*",
-            "to": "  process.env.VITE_APP_VERSION =  \"${nextRelease.version}\";",
-            "results": [
-              {
-                "file": "electron-builder.config.js",
-                "hasChanged": true,
-                "numMatches": 1,
-                "numReplacements": 1
-              }
-            ],
-            "countMatches": true
-          },
-          {
             "files": ["package.json"],
             "from": "  \"version\": .*",
             "to": "  \"version\": \"${nextRelease.version}\",",
@@ -57,13 +43,6 @@
       {
         "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
         "message": "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "npm run precompile",
-        "publishCmd": "npm run release"
       }
     ],
     "semantic-release-github-electron-builder"
