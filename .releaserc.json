@@ -37,6 +37,11 @@
         "message": "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    "semantic-release-github-electron-builder"
+    [
+      "semantic-release-github-electron-builder",
+      {
+        "publishCmd": "npm run release -- -c.releaseInfo.releaseNotes=\"${nextRelease.notes}\""
+      }
+    ]
   ]
 }
