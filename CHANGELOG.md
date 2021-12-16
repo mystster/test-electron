@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/mystster/test-electron/compare/v1.0.14...v1.0.15) (2021-12-16)
+
+
+### Bug Fixes
+
+* publish command not execute ([0feeaa6](https://github.com/mystster/test-electron/commit/0feeaa6d5266ce4511087b3b3bca727308492db0))
+
 ## [1.0.14](https://github.com/mystster/test-electron/compare/v1.0.13...v1.0.14) (2021-12-16)
 
 
