@@ -1,7 +1,7 @@
 {
   "name": "vite-electron-builder",
   "private": true,
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "test-electron",
   "author": {
     "email": "mystster@gmail.com",
