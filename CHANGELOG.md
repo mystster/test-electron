@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/mystster/test-electron/compare/v1.0.16...v1.0.17) (2021-12-16)
+
+
+### Bug Fixes
+
+* plugin can not load config. ([115fb82](https://github.com/mystster/test-electron/commit/115fb8208000fe5d88a9bea643af0d20e11f248f))
+
 ## [1.0.16](https://github.com/mystster/test-electron/compare/v1.0.15...v1.0.16) (2021-12-16)
 
 
