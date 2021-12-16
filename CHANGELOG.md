@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/mystster/test-electron/compare/v1.0.15...v1.0.16) (2021-12-16)
+
+
+### Bug Fixes
+
+* semantic-release ([d195a99](https://github.com/mystster/test-electron/commit/d195a99a4e774bf4f2c6eac1e9d62b031a64c2fc))
+
 ## [1.0.15](https://github.com/mystster/test-electron/compare/v1.0.14...v1.0.15) (2021-12-16)
 
 
