@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/mystster/test-electron/compare/v1.0.17...v1.0.18) (2021-12-16)
+
+
+### Bug Fixes
+
+* update ([af88d2a](https://github.com/mystster/test-electron/commit/af88d2a9f93c476a6d3ba34a30846ec627c027ac))
+
 ## [1.0.17](https://github.com/mystster/test-electron/compare/v1.0.16...v1.0.17) (2021-12-16)
 
 
