@@ -93,7 +93,7 @@
     [
       "semantic-release-github-electron-builder",
       {
-        "publishCmd": ".\\node_modules\\.bin\\electron-builder build --config electron-builder.config.js -p always --config.asar=false -c.releaseInfo.releaseNotes=\"${nextRelease.notes}\""
+
       }
     ]
   ]
