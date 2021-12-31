@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/mystster/test-electron/compare/v1.0.21...v1.1.0) (2021-12-31)
+
+
+### :sparkles: Feature
+
+* add conventional commits ([4bd90b1](https://github.com/mystster/test-electron/commit/4bd90b1319e2a5c32ee021c1fcf4c7b84fd4edb1))
+
+
+### :barber: Style
+
+* update lib ([8a79169](https://github.com/mystster/test-electron/commit/8a7916943eac2f32f82e4a06e3d9286508b197e5))
+
 ## [1.0.21](https://github.com/mystster/test-electron/compare/v1.0.20...v1.0.21) (2021-12-16)
 
 
