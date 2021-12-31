@@ -1,3 +1,10 @@
+### [1.1.1](https://github.com/mystster/test-electron/compare/v1.1.0...v1.1.1) (2021-12-31)
+
+
+### :bug: bug fix
+
+* release note is not contained in latest.yml ([30d1ff4](https://github.com/mystster/test-electron/commit/30d1ff49c0e915961dc8b8c0f85d5dd0957fc37b))
+
 ## [1.1.0](https://github.com/mystster/test-electron/compare/v1.0.21...v1.1.0) (2021-12-31)
 
 
