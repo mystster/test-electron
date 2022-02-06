@@ -59,7 +59,7 @@
     "simple-git-hooks": "2.7.0",
     "typescript": "4.5.5",
     "vite": "2.7.13",
-    "vue-tsc": "0.31.1"
+    "vue-tsc": "0.31.2"
   },
   "dependencies": {
     "electron-updater": "4.6.5",
