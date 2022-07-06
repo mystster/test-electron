@@ -52,7 +52,7 @@
     "electron-builder": "22.14.13",
     "electron-devtools-installer": "3.2.0",
     "eslint": "8.19.0",
-    "eslint-plugin-vue": "9.1.1",
+    "eslint-plugin-vue": "9.2.0",
     "lint-staged": "12.5.0",
     "playwright": "1.23.1",
     "semantic-release-github-electron-builder": "github:mystster/semantic-release-github-electron-builder",
