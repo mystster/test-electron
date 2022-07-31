@@ -62,7 +62,7 @@
     "vue-tsc": "0.39.4"
   },
   "dependencies": {
-    "electron-updater": "4.6.5",
+    "electron-updater": "5.2.1",
     "vue": "3.2.37",
     "vue-router": "4.1.3"
   }
