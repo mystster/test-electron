@@ -1,3 +1,16 @@
+### [1.1.16](https://github.com/mystster/test-electron/compare/v1.1.15...v1.1.16) (2022-08-30)
+
+
+### :bug: bug fix
+
+* **deps:** update dependency vue-router to v4.0.16 ([d9d28dd](https://github.com/mystster/test-electron/commit/d9d28ddea5a5a514fc35311622d59c862c7ba902))
+* **deps:** update dependency vue-router to v4.1.0 ([18eefda](https://github.com/mystster/test-electron/commit/18eefda8cf9c3a091d1009e71e9681cad34d44eb))
+* **deps:** update dependency vue-router to v4.1.1 ([17b22f6](https://github.com/mystster/test-electron/commit/17b22f658dd0074d86b2803e96eafa3dce2e3021))
+* **deps:** update dependency vue-router to v4.1.2 ([11d6984](https://github.com/mystster/test-electron/commit/11d69842b84292f70f5d45c85751e0a6a8c5e450))
+* **deps:** update dependency vue-router to v4.1.3 ([1dc6b6e](https://github.com/mystster/test-electron/commit/1dc6b6e886722daa9597387180db2fa231499ed4))
+* **deps:** update dependency vue-router to v4.1.4 ([d4f7493](https://github.com/mystster/test-electron/commit/d4f74931f90e096e3bf9ce18e9af5eac77b7124b))
+* **deps:** update dependency vue-router to v4.1.5 ([8d536b3](https://github.com/mystster/test-electron/commit/8d536b3289af56ae129e2399bfe2970b65f288bd))
+
 ### [1.1.15](https://github.com/mystster/test-electron/compare/v1.1.14...v1.1.15) (2022-06-06)
 
 
