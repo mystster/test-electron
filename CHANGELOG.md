@@ -1,3 +1,10 @@
+### [1.1.21](https://github.com/mystster/test-electron/compare/v1.1.20...v1.1.21) (2022-10-24)
+
+
+### :bug: bug fix
+
+* **deps:** update dependency vue-router to v4.1.6 ([3fd9765](https://github.com/mystster/test-electron/commit/3fd97659e33db16bb9e45e4a53f2a0baaaf75786))
+
 ### [1.1.20](https://github.com/mystster/test-electron/compare/v1.1.19...v1.1.20) (2022-10-14)
 
 
