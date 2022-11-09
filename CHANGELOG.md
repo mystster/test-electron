@@ -1,3 +1,10 @@
+### [1.1.22](https://github.com/mystster/test-electron/compare/v1.1.21...v1.1.22) (2022-11-09)
+
+
+### :bug: bug fix
+
+* **deps:** update dependency vue to v3.2.42 ([775af2b](https://github.com/mystster/test-electron/commit/775af2bd67633ddfa377d187e3f72fc08bbf8a87))
+
 ### [1.1.21](https://github.com/mystster/test-electron/compare/v1.1.20...v1.1.21) (2022-10-24)
 
 
