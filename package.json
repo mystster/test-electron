@@ -45,7 +45,7 @@
     "@types/electron-devtools-installer": "2.2.2",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@vitejs/plugin-vue": "1.10.2",
-    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "conventional-changelog-conventionalcommits": "^7.0.0",
     "cross-env": "7.0.3",
     "dts-for-context-bridge": "0.7.1",
     "electron": "16.0.8",
