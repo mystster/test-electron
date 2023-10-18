@@ -58,7 +58,7 @@
     "semantic-release-github-electron-builder": "github:mystster/semantic-release-github-electron-builder",
     "simple-git-hooks": "2.9.0",
     "typescript": "4.9.5",
-    "vite": "2.9.16",
+    "vite": "4.5.0",
     "vue-tsc": "0.40.13"
   },
   "dependencies": {
