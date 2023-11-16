@@ -42,7 +42,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/electron-devtools-installer": "2.2.3",
+    "@types/electron-devtools-installer": "2.2.5",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@vitejs/plugin-vue": "1.10.2",
     "conventional-changelog-conventionalcommits": "^4.6.3",
