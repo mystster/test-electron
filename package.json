@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "electron-updater": "4.6.5",
-    "vue": "3.4.22",
+    "vue": "3.4.26",
     "vue-router": "4.3.0"
   }
 }
