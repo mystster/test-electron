@@ -49,7 +49,7 @@
     "cross-env": "7.0.3",
     "dts-for-context-bridge": "0.7.1",
     "electron": "16.0.8",
-    "electron-builder": "22.14.13",
+    "electron-builder": "25.1.8",
     "electron-devtools-installer": "3.2.1",
     "eslint": "8.57.1",
     "eslint-plugin-vue": "9.31.0",
